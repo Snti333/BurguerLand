@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BurgerLand - Las mejores hamburguesas</title>
+  <title>BurgerLand -Las mejores hamburguesas</title>
   <style>
     * {
       margin: 0;
@@ -13,12 +13,12 @@
     }
 
     body {
-      background-color: #fffaf2;
+      background-color: #e9c68f;
       color: #333;
       scroll-behavior: smooth;
     }
 
-    /* HEADER */
+
     header {
       display: flex;
       justify-content: space-between;
@@ -59,7 +59,7 @@
       color: #ffd4a3;
     }
 
-    /* MENÚ HAMBURGUESA */
+
     .menu-toggle {
       display: none;
       flex-direction: column;
@@ -96,7 +96,7 @@
       }
     }
 
-    /* HERO SECTION */
+
     .hero {
       background: url('https://cdn.pixabay.com/photo/2017/04/23/18/58/burger-2253343_1280.jpg') center/cover no-repeat;
       color: white;
@@ -118,7 +118,7 @@
       border-radius: 8px;
     }
 
-    /* SECCIÓN PRODUCTOS - GRID */
+
     .menu {
       padding: 50px 20px;
       text-align: center;
@@ -193,10 +193,10 @@
       background: #8b1a1a;
     }
 
-    /* SECCIONES EXTRA */
+
     section {
       padding: 50px 20px;
-      max-width: 900px;
+      max-width: 1200px;
       margin: 0 auto;
     }
 
@@ -211,7 +211,18 @@
       color: #b22222;
       margin-bottom: 20px;
     }
-
+    #nosotros {
+      text-align: center;
+      margin-top: 40px;
+      }
+    #nosotros img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
     #nosotros, #contacto {
       background: white;
       border-radius: 10px;
@@ -220,7 +231,6 @@
       padding: 40px 25px;
     }
 
-    /* FOOTER */
     footer {
       background: #b22222;
       color: white;
@@ -256,8 +266,8 @@
 
 <section class="hero" id="inicio">
   <div class="hero-content">
-    <h1>🍔 Las Mejores Hamburguesas de la Ciudad 🍔</h1>
-    <p>Jugosas, sabrosas y hechas con amor en <strong>BurgerLand</strong> ❤️</p>
+    <h1>Las Mejores Hamburguesas de Moreno</h1>
+    <p>Jugosas, sabrosas y hechas con amor en <strong>BurgerLand</strong> </p>
   </div>
 </section>
 
@@ -286,7 +296,6 @@
         <button>Ordenar</button>
       </div>
 
-      <!-- Imagen reemplazada por tu archivo local -->
       <div class="producto">
         <img src="burger-7422959_1280.jpg" alt="Hamburguesa BBQ Bacon">
         <div class="info">  
@@ -307,8 +316,58 @@
         <button>Ordenar</button>
       </div>
 
+            <div class="producto">
+        <img src="cocacola.png" alt="PACK de Gaseosa">
+        <div class="info">  
+          <h3>PACK de 6</h3>
+          <p>Pack de 6 Coca Colas de 2.25 L frias y listas para ser tomadas.</p>
+          <p><strong>$30.000</strong></p>
+        </div>
+        <button>Ordenar</button>
+      </div>
+
+      
+            <div class="producto">
+        <img src="B4sbWvtpqqyWvzpdD-300-x.webp" alt="COMBO Street xl">
+        <div class="info">  
+          <h3>COMBO Street xl</h3>
+          <p>Mega combo para compartir. Incluye dos panchos XL con Papas Belgas super crujientes, salsas especiales y topping fresco, acompañado de dos gaseosas de vidrio a eleccion.</p>
+          <p><strong>$7.500</strong></p>
+        </div>
+        <button>Ordenar</button>
+      </div>
+
+                  <div class="producto">
+        <img src="pizzaa.jpg" alt="COMBO Aura O Laura">
+        <div class="info">  
+          <h3>COMBO Aura o Laura?</h3>
+          <p>Combo de pizza mediana irresistible (Topping a eleccion del cliente), acompañado de un pan con ajo y refresco 2.25L a eleccion.</p>
+          <p><strong>$13.000</strong></p>
+        </div>
+        <button>Ordenar</button>
+      </div>
+
+      
+            <div class="producto">
+        <img src="recipes.11386.jpeg" alt="COMBO Rabas Buenardovich">
+        <div class="info">  
+          <h3>Rabas Buenardovich</h3>
+          <p>Rabas doradas servidas con rodaja de limon y deliciosa salsa original de nosotros. Un clasico para picar y compartir!</p>
+          <p><strong>$17.500</strong></p>
+        </div>
+        <button>Ordenar</button>
+        </div>
+      </div>
+  <div class="producto">
+    <img src="proximamente.png" alt="PROXIMAMENTE">
+
+    <div class="info">
+      <h3>PRÓXIMAMENTE MÁS COMBOS</h3>
+      <p>-</p>
+      <p><strong>-</strong></p>
     </div>
-  </section>
+  </div>
+</section>
 
   <section id="promociones">
     <h2>Promociones</h2>
@@ -330,8 +389,14 @@ Rápido, fácil y más barato 💨
     <p>BurgerLand nació en una pequeña cocina familiar, donde el aroma del pan recién horneado y la risa alrededor de la mesa nos inspiraron a crear algo especial.
 Comenzamos con una simple idea: hacer hamburguesas con el mismo amor con que cocinamos para quienes más queremos.
 Hoy, cada burger que servimos lleva ese mismo espíritu: ingredientes frescos, manos apasionadas y una promesa de sabor que une a la gente.
-Porque para nosotros, una hamburguesa no es solo comida — es un momento para compartir. 🍔❤️ </p>
+Porque para nosotros, una hamburguesa no es solo comida — es un momento para compartir. </p>
   </section>
+       <section id="nosotros">
+        <img src="cliente.jpg" alt="Dueño De BurguerLand">
+        <div class="info">  
+          <h3>Alexis Valentin Sanchez</h3>
+          <p>Dueño y fundador de BurguerLand - Dia de inauguracion</p>
+        </div>
 
   <section id="contacto">
     <h2>Contacto</h2>
@@ -341,7 +406,7 @@ Porque para nosotros, una hamburguesa no es solo comida — es un momento para c
   </section>
 
   <footer>
-    <p>© 2025 BurgerLand - Todos los derechos reservados.</p>
+    <p>2025 BurgerLand- Ya tu sabe</p>
   </footer>
 
   <script>
